@@ -20,15 +20,14 @@ This project implements a digital piano system on an FPGA using SystemVerilog. D
 
 ## 🗂️ File Structure
 /fpga-piano/
-│
-├── piano_drawer.sv # Visual rendering of piano keys on VGA
-├── chord_player.sv # Audio synthesis of multiple notes
-├── piano_game.sv # FSM logic for melody memory game
-├── rom_note_*.mif # ROM waveform data for each musical note
-├── audio_driver.sv # Interface to audio codec
-├── video_driver.sv # VGA timing and signal generation
-├── testbench.sv # Piano Game testbench
-└── README.md
+1. piano_drawer.sv # Visual rendering of piano keys on VGA
+2. chord_player.sv # Audio synthesis of multiple notes
+3. piano_game.sv # FSM logic for melody memory game
+4. rom_note_*.mif # ROM waveform data for each musical note
+5. audio_driver.sv # Interface to audio codec
+6. video_driver.sv # VGA timing and signal generation
+7. testbench.sv # Piano Game testbench
+8. README.md
 
 ### 🧪 Simulation
 
