@@ -19,7 +19,6 @@ This project implements a digital piano system on an FPGA using SystemVerilog. D
   - FSM tested for correct transitions and edge cases
 
 ## 🗂️ File Structure
-/fpga-piano/
 1. piano_drawer.sv # Visual rendering of piano keys on VGA
 2. chord_player.sv # Audio synthesis of multiple notes
 3. piano_game.sv # FSM logic for melody memory game
